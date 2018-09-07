@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="App">
     <head>
         <meta charset="utf-8">
-        <title>Angular Example</title>
+        <title>Angular Template</title>
     </head>
-    <body>
-
+    <body ng-controller="mainController">
+        {{2+2}}
+        <input ng-model="temp"/>
     </body>
     <script type="text/javascript" src="./node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
 </html>
